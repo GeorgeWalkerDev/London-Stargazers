@@ -1854,6 +1854,10 @@ input, select, textarea {
 
 /* Button */
 
+	#dateMessage {
+		display: none;
+	}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1902,6 +1906,34 @@ input, select, textarea {
 			.button:hover:active {
 				background-color: rgba(46, 186, 174, 0.05);
 			}
+
+
+			input[type="submit"].primary,
+			input[type="reset"].primary,
+			input[type="button"].primary,
+			button.primary,
+			.button.primary {
+				background-color: #ed4933;
+				box-shadow: none !important;
+				color: #ffffff !important;
+			}
+		
+				input[type="submit"].primary:hover,
+				input[type="reset"].primary:hover,
+				input[type="button"].primary:hover,
+				button.primary:hover,
+				.button.primary:hover {
+					background-color: #ef5e4a !important;
+				}
+		
+				input[type="submit"].primary:active,
+				input[type="reset"].primary:active,
+				input[type="button"].primary:active,
+				button.primary:active,
+				.button.primary:active {
+					background-color: #eb341c !important;
+				}
+
 
 		input[type="submit"]:before, input[type="submit"]:after,
 		input[type="reset"]:before,
@@ -2283,6 +2315,7 @@ input, select, textarea {
 
 /* Image */
 
+
 	.image {
 		border: 0;
 		display: inline-block;
@@ -2327,6 +2360,8 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
+			display: flex;
+			justify-content: center;
 		}
 
 			.image.featured img {
