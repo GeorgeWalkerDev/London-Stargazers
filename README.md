@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is built using the NASA Open API to retrieve images of the Astronomy Picture of the Day! Feast your eyes on the glorious photos produced by NASA.
+This project was built for the London Stargazers community utilising the NASA Open API to retrieve images of the Astronomy Picture of the Day! Feast your eyes on the glorious photos produced by NASA.
 
 ## Features
 
@@ -18,7 +18,7 @@ As you input the date, the APOD from that date will render in.
 
 ### Live Version:
 
-[CV Builder](https://www.georgewalker.dev/London-Stargazers/)
+[London Stargazers](https://www.georgewalker.dev/London-Stargazers/)
 
 
 ## Dependencies
